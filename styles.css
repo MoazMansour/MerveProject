@@ -1,7 +1,7 @@
 * {box-sizing:border-box}
 
 
-article, aside { 
+article, aside {
 	display: table-cell;
 	padding: 10px;
 }
@@ -15,7 +15,7 @@ body{
 h1{
 	color: #AD235E;
 	border-bottom: 1px solid #AD235E;
-	padding : 10px; 
+	padding : 10px;
 	border: solid;
 	border-radius: 15px;
 }
@@ -26,7 +26,7 @@ h2{
 	font-weight: normal;
 	border-bottom: solid;
 	margin-bottom: 0px;
-	}				
+	}
 p{
 	margin-top: 0px;
 }
@@ -58,6 +58,7 @@ ul.menu{
 
 li.menu {
 	float: left;
+	position: center;
 }
 
 li a{
@@ -87,27 +88,27 @@ a:hover{
 }
 
 .lead, h1, h2 {
-       font-weight: normal; 	
+       font-weight: normal;
 }
 
 .intro{
-	font-weight: bold; 
+	font-weight: bold;
 }
 
 /*a {
 	background-color: #ffc0cb;
     color: white;
     padding: 14px 25px;
-    text-align: center; 
+    text-align: center;
     text-decoration: none;
     display: inline-block;
 }*/
 
-.container{ 
+.container{
 	margin: 0 auto;
 	width: 90%;
 	max-width: 960px;
-} 
+}
 
 
 /* Slideshow container */
@@ -192,15 +193,13 @@ a:hover{
   animation-duration: 1.5s;
 }
 
-
-
 @-webkit-keyframes fade {
-  from {opacity: .4} 
+  from {opacity: .4}
   to {opacity: 1}
 }
 
 @keyframes fade {
-  from {opacity: .4} 
+  from {opacity: .4}
   to {opacity: 1}
 }
 
